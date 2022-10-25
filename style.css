@@ -1,0 +1,356 @@
+
+.header{
+  overflow: hidden;
+  background-color: #006747;
+  padding: 20px 10px;
+}
+
+/*Style the Header Links*/
+.header a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* On mouse-over */
+.btn:hover {
+   {background: #eee;}
+  .login {color: green; float:right;}
+  .help {color: green; float: right;}
+
+/*Style the Logo Link*/
+.header a.logo{
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+}
+
+/*Change the Background color on mouse over*/
+.header a:hover{
+  background-color: #006747;
+  color: white;
+}
+
+/*Style the Current link*/
+.header a:active{
+  background-color: black;
+  color: white;
+}
+
+/*Float Section to Right*/
+.header-right{
+  float: right;
+
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-family: inherit;
+}
+
+nav {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+  padding-right: 10px;
+}
+
+body {
+  height: 100%;
+}
+
+
+  /* Full height */
+  /*not working visit later height: 100%;
+
+  /* Center and scale the image nicely */
+  /*background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.circular-square1{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square1 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square2{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square2 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square3{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square3 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square4{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square4 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square6{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square6 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square7{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square7 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square8{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square8 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square9{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square9 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square11{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square11 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square12{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square12 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square13{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square13 img{
+  width: 150%;
+  height: 100%;
+}
+
+.circular-square14{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: align;
+}
+
+.circular-square14 img{
+  width: 150%;
+  height: 100%;
+}
+footer {
+  position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: #373737;
+   height: auto;
+   width: 100vw;
+   padding-top: 40px;
+   color: #fff;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-bottom {
+  background: #373737;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.footer-bottom p{
+   float: left;
+   font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.footer-menu{
+  float: right;
+  display: right footer-bottom;
+}
+
+.footer-menu ul{
+  display: flex;
+}
+
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
+
+
+nav {
+  font-size: 20px;
+}
+
+.banner-links {
+
+}
+
+.textbook {
+  background-image: none;
+  /*background-image: url('client5images/Station.jpg')*/;
+}
+
+.openings{
+  background-image: none;
+}
